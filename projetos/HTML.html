@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplos HTML</title>
+</head>
+
+<body>
+    <!--cabeçalho da página-->
+    <header id="menu">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="exemplosCSS.html">CSS</a></li>
+                <li><a href="exemplosJavaScript.html">JavaScript</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <h3>Índice</h3>
+            <ul>
+                <li><a href="#formtext">Formatação de Texto</a></li>
+                <li><a href="#explist">Exemplos de Listas</a></li>
+                <li><a href="#explin">Exemplos de Links</a></li>
+                <li><a href="#exptab">Exemplos de Tabelas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--corpo da página-->
+    <main id="corpo">
+        <section id="html">
+            <!--link para voltar para página principal-->
+            <h3>Voltar para Home</h3>
+            <ul> <a href="../index.html"> Voltar >> </a></ul>
+
+            <!--link para voltar para página HTML-->
+            <h3>Ir para CSS</h3>
+            <ul> <a href="CSS.html"> CSS >> </a></ul>
+
+            <!--link para voltar para página JavaScript-->
+            <h3>Voltar para JavaScript</h3>
+            <ul> <a href="JAVASCRIPT.html"> JavaScript >> </a></ul>
+        </section>
+
+        <br>
+
+        <!--exemplos de formatação de texto-->
+        <section id="formtext" class="formatacaoTXT">
+            <h2 id="formatacao">Exemplos de formatação de texto</h2>
+
+            <table border=1 cellspacing="0">
+
+                <thead>
+                    <tr>
+                        <th>efeito</th>
+                        <th>exemplo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> <b>texto negrito</b> </td>
+                        <td> <code> &lt;b&gt; texto negrito &lt;/b&gt; </code> </td>
+                    </tr>
+                    <tr>
+                        <td> <strong>texto forte</strong> </td>
+                        <td> <code>  &lt;strong&gt; texto forte &lt;/strong&gt; </code> </td>
+                    </tr>
+                    <tr>
+                        <td> <em>texto enfatizado</em> </td>
+                        <td> <code>  &lt;em&gt; texto enfatizado &lt;em&gt; </code> </td>
+                    </tr>
+                    <tr>
+                        <td> <i>texto itálico</i> </td>
+                        <td> <code> &lt;i&gt; texto itálico &lt;/i&gt; </code> </td>
+                    </tr>
+                    <tr>
+                        <td> <mark>texto grifado</mark> </td>
+                        <td> <code>  &lt;mark&gt; texto grifado &lt;/mark&gt; </code> </td>
+                    </tr>
+                    <tr>
+                        <td> <big>texto grande</big> </td>
+                        <td> <code>  &lt;big&gt; texto grande &lt;/big&gt; </code> </td>
+                    </tr>
+                    <tr>
+                        <td> <small>texto pequeno</small> </td>
+                        <td> <code> &lt;small&gt; texto pequeno &lt;/small&gt;</code> </td>
+                    </tr>
+                    <tr>
+                        <td> <del>texto taxado</del> </td>
+                        <td> <code> &lt;del&gt; texto taxado &lt;/del&gt; </code> </td>
+                    </tr>
+                    <tr>
+                        <td> <ins>texto inserido</ins> </td>
+                        <td> <code> &lt;del&gt; texto inserido &lt;/del&gt; </code> </td>
+                    </tr>
+                    <tr>
+                        <td> <u>texto sublinhado</u> </td>
+                        <td> <code> &lt;u&gt; texto sublinhado &lt;/u&gt; </code> </td>
+                    </tr>
+                    <tr>
+                        <td> esse é um<sub>texto subscrito</sub> </td>
+                        <td> <code> &lt;sub&gt; texto subscrito &lt;/sub&gt; </code> </td>
+                    </tr>
+                    <tr>
+                        <td> esse é um<sup>texto subreescrito</sup> </td>
+                        <td> <code> &lt;sup&gt; texto subreescrito &lt;/sup&gt; </code> </td>
+                    </tr>
+
+
+                </tbody>
+
+            </table>
+        </section>
+
+        <!------------------------------------------------------>
+
+        <!--exemplos de listas-->
+        <section id="explist" class="expListas">
+            <h2>Exemplos de Listas</h2>
+
+            <table border=1>
+
+                <thead>
+                    <tr>
+                        <th width=50%>Efeito</th>
+                        <th>Código</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!------------------------------------>
+                    <tr>
+                        <td colspan="2">
+                            <p>
+                                <center><b>Lista Não Ordenada</b></center>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>item 1</li>
+                                <li>item 2</li>
+                                <li>item 3</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <code>
+                                &lt;ul&gt;<br>
+                                  &nbsp &nbsp &lt;li&gt;item 1&lt;/li&gt;<br>
+                                  &nbsp &nbsp &lt;li&gt;item 2&lt;/li&gt;<br>
+                                  &nbsp &nbsp &lt;li&gt;item 3&lt;/li&gt;<br>
+                                &lt;/ul&gt;
+                            </code>
+                        </td>
+                    </tr>
+                    <!------------------------------------>
+                    <tr>
+                        <td colspan="2">
+                            <p>
+                                <center><b>Lista Ordenada</b></center>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ol>
+                                <li>item 1</li>
+                                <li>item 3</li>
+                                <li>item 2</li>
+                            </ol>
+                        </td>
+                        <td>
+                            <code>
+                                &lt;ol&gt;<br>
+                                  &nbsp &nbsp &lt;li&gt;item 1&lt;/li&gt;<br>
+                                  &nbsp &nbsp &lt;li&gt;item 2&lt;/li&gt;<br>
+                                  &nbsp &nbsp &lt;li&gt;item 3&lt;/li&gt;<br>
+                                &lt;/ol&gt;
+                            </code>
+                        </td>
+                    </tr>
+                    <!------------------------------------>
+                    <tr>
+                        <td colspan="2">
+                            <p>
+                                <center><b>Lista de definição</b></center>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <dl>
+                                <dt>titulo da lista</dt>
+                                <dd>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. In provident corrupti
+                                    molestias delectus quos molestiae fuga aliquam consequatur quae culpa? Quod optio
+                                    saepe obcaecati iste odio minima vero nesciunt cum?
+                                </dd>
+
+                                <dt>navegador</dt>
+                                <dd>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit placeat officia sed
+                                    consectetur illo quae nesciunt saepe deserunt, itaque eligendi maxime voluptatem
+                                    vero blanditiis quidem repellat harum, commodi illum! Laudantium.
+                                </dd>
+                            </dl>
+                        </td>
+                        <td>
+                            <code>
+                                &lt;dl&gt;<br>
+                                &nbsp &nbsp &lt;dt&gt;titulo da lista&lt;/dt&gt;<br>
+                                &nbsp &nbsp &lt;dd&gt;<br>
+                                &nbsp &nbsp  &nbsp &nbsp  Lorem, ipsum dolor sit amet consectetur adipisicing <br>
+                                &nbsp &nbsp  &nbsp &nbsp  elit. In provident corrupti molestias delectus quos <br>
+                                &nbsp &nbsp  &nbsp &nbsp  molestiae fuga aliquam consequatur quae culpa? Quod <br>
+                                &nbsp &nbsp  &nbsp &nbsp  optio saepe obcaecati iste odio minima vero nesciunt cum?<br>
+                                &nbsp &nbsp &lt;/dd&gt;<br>
+                            
+                                &nbsp &nbsp &lt;dt&gt;navegador&lt;/dt&gt;<br>
+                                &nbsp &nbsp &lt;dd&gt;<br>
+                                &nbsp &nbsp &nbsp &nbsp Lorem, ipsum dolor sit amet consectetur adipisicing <br> 
+                                &nbsp &nbsp &nbsp &nbsp elit. Sit placeat officia sed consectetur illo quae  <br>
+                                &nbsp &nbsp &nbsp &nbsp nesciunt saepe deserunt, itaque eligendi maxime <br>
+                                &nbsp &nbsp &nbsp &nbsp voluptatem vero blanditiis quidem repellat harum, <br>
+                                &nbsp &nbsp &nbsp &nbsp  commodi illum! Laudantium. <br>
+                                &nbsp &nbsp &lt;/dd&gt;<br>
+                                &lt;/dl&gt;<br>
+                            </code>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+        <!------------------------------------------------------>
+
+        <!--exemplos de links-->
+        <section id="explin" class="expLink">
+            <h2>Exemplos de Links</h2>
+            <code>
+                &lt;!-- link para outro site --&gt;<br>
+                &nbsp &nbsp&lt;p&gt; <br>
+                &lt;!-- o atributo target="_blank" abre a pagina em uma nova aba do navegador --&gt;<br>
+                &nbsp &nbsp &nbsp &nbsp   Visite o site da &lt;a href="https://www.proway.com.br" target="_blank"&gt;Proway&lt;/a&gt;  <br>   
+                &nbsp &nbsp&lt;/p&gt; <br>
+            
+                &lt;!-- link para um bookmark da própria página--&gt;<br>
+                &nbsp &nbsp &lt;p&gt; <br>
+                &nbsp &nbsp &nbsp &nbsp   vá até a area de exemplos de &lt;a href="#formatacao"&gt;formatação&lt;/a&gt; <br>
+                &nbsp &nbsp &lt;/p&gt; <br>
+            
+            
+                &lt;!-- link para um bookmark de outra página--&gt;<br>
+                &nbsp &nbsp &lt;p&gt; <br>
+                &nbsp &nbsp &nbsp &nbsp   na sessão &lt;a href="http://serasa.proway.com.br/#faq" target="_blank" &gt; <br>
+                &nbsp &nbsp &nbsp &nbsp   perguntas frequentes&lt;/a&gt;  do projeto serasa da proway <br>
+                &nbsp &nbsp &nbsp &nbsp   você encontra as respostas para suas perguntas. <br>
+                &nbsp &nbsp &lt;/p&gt; <br>
+                
+                &lt;!-- link para uma página do próprio site--&gt;<br>
+                &nbsp &nbsp &lt;p&gt;<br>
+                &nbsp &nbsp &nbsp &nbsp    a descrição do curso se encontra na &lt;a href="../index.html"&gt;página principal&lt;/a&gt;  deste site.<br>
+                &nbsp &nbsp &lt;/p&gt;<br>
+            
+                &lt;!-- Link em uma imagem/figura --&gt;<br>
+                &nbsp &nbsp &lt;a href="https://pt.wikipedia.org/wiki/COBOL"&gt;&lt;/a&gt;<br>
+                &nbsp &nbsp &nbsp &nbsp&lt;figure&gt;<br>
+                    
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp    &lt;img src="../img/cobol.png" alt="dinosauro da programação" width=100 title="dwerwe"&gt;<br>
+            
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   &lt;figcaption&gt;Dinosauro do cobol&lt;/figcaption&gt;<br>
+                &nbsp &nbsp &nbsp &nbsp  &lt;/figure&gt;  <br>
+                &nbsp &nbsp &lt;/a&gt;  <br>
+            
+            
+            
+                &lt;!-- Link para E-mail--&gt; <br>
+                &nbsp &nbsp &lt;p&gt;<br>
+                &nbsp &nbsp &nbsp &nbsp   Gostou de nossa oferta? entre em  <br>
+                &nbsp &nbsp &nbsp &nbsp   &lt;a href="mailto:ivan.borchardt.cobol@gmail.com?subject=Contato&body=estou entrando em contato referente a oferta">contato&lt;/a&gt;! <br>
+                &nbsp &nbsp&lt;/p&gt;<br>
+            </code>
+        </section>
+
+        <!--------------------------------------------------------------------------------------->
+        
+        <!--exemplos de tabelas-->
+        <section id="exptab" class="expTable">
+            <h2>Exemplos de Tabelas</h2>
+            <code>
+                &nbsp &nbsp&lt;table width=70% border=1 cellspacing="0" cellpadding="0" bgcolor="red" align="left"&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp   &lt;caption&gt;&lt;strong&gt;&lt;i&gt;Nota Fria Papelaria&lt;/i&gt;&lt;/strong&gt;&lt;/caption&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp   &lt;thead&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp     &lt;tr&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp         &lt;th&gt;descrição&lt;/th&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp         &lt;th&gt;preço unit.&lt;/th&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp         &lt;th&gt;preço total&lt;/th&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp     &lt;/tr&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp   &lt;/thead&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp   &lt;tbody&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp      &lt;tr&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp         &lt;td&gt;2&lt;/td&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp         &lt;td&gt;lapis de cor&lt;/td&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp         &lt;td&gt;R$5,00&lt;/td&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp         &lt;td&gt;R$10,00&lt;/td&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp      &lt;/tr&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp      &lt;tr&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp         &lt;td&gt;4&lt;/td&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp         &lt;td&gt;caderno brochura 60fl&lt;/td&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp         &lt;td&gt;R$3,00&lt;/td&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp         &lt;td&gt;R$12,00&lt;/td&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp      &lt;/tr&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp   &lt;/tbody&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp   &lt;tfoot&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp      &lt;tr&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp         &lt;td colspan="3"&gt;&lt;b&gt;Total&lt;/b&gt;&lt;/td&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp         &lt;td&gt;R$22,00&lt;/td&gt;
+                <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp      &lt;/tr&gt;
+                <br> &nbsp &nbsp&nbsp &nbsp    &lt;/tfoot&gt;
+                <br> &nbsp &nbsp&lt;/table&gt;
+                <br>
+            </code>
+            <!--------------------------------------------------------------------------->
+            <table width=70% border=1 cellspacing="0" cellpadding="0" bgcolor="red" align="left">
+                <caption><strong><i>Nota Fria Papelaria</i></strong></caption>
+                <thead>
+                    <tr>
+                        <th width="50%" height="75">quantidade</th>
+                        <th>descrição</th>
+                        <th>preço unit.</th>
+                        <th>preço total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2</td>
+                        <td>lapis de cor</td>
+                        <td>R$5,00</td>
+                        <td>R$10,00</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>caderno brochura 60fl</td>
+                        <td>R$3,00</td>
+                        <td>R$12,00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"><b>Total</b></td>
+                        <td>R$22,00</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+        </section>
+
+    </main>
+
+    <!-- rodapé da página -->
+    <footer id="rodape">
+
+    </footer>
+
+</body>
+
+</html>
+</main>
+
+</body>
+
+</html>
